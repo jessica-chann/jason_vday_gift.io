@@ -1,0 +1,43 @@
+.card {
+  width: 25%;
+  height: auto;
+  opacity: 0;  /* Cards start off invisible */
+  transition: opacity 0.5s ease, transform 0.5s ease;  
+}
+
+/* Fade-in effect with animation */
+.fade-in {
+  opacity: 1;
+  animation: fadeIn 0.5s forwards;
+}
+
+/* Fade-out effect */
+.fade-out {
+  opacity: 0;
+  animation: fadeOut 0.5s forwards;
+  transform: translateX(-150px);
+  transition: transform 1s ease;
+}
+
+/* Staggered fade-in for all cards */
+.fade-in-all .card {
+  opacity: 1;
+  animation: fadeIn 0.7s ease forwards;
+}
+
+.shift-left {
+  transition: transform 5s ease;  /* Smooth transition over 1s */
+  transform: translateX(-80%); /* Move the last card to the left */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Fade-out animation */
+@keyframes fadeOut {
+  from { opacity: 1; transform: translateX(0); }
+  to { opacity: 0; transform: translateX(-50px); }
+}

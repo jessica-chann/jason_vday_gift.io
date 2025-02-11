@@ -1,0 +1,28 @@
+.app {
+  text-align: center;
+  margin: 250px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.card {
+  text-align: center;
+  transition: transform .5s ease;  /* Smooth transition over 1s */
+}
+
+.card img {
+  width: 95%;
+  height: auto;
+}
+
+.large {
+  width: 35%;  /* Larger card size */
+  height: 35%;
+}
+
+
