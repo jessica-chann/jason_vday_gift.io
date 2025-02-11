@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jason_vday_gift.io/static/css/main.36324bbd.css",
+    "main.js": "/jason_vday_gift.io/static/js/main.103f071a.js",
+    "static/js/488.1695e89c.chunk.js": "/jason_vday_gift.io/static/js/488.1695e89c.chunk.js",
+    "index.html": "/jason_vday_gift.io/index.html",
+    "main.36324bbd.css.map": "/jason_vday_gift.io/static/css/main.36324bbd.css.map",
+    "main.103f071a.js.map": "/jason_vday_gift.io/static/js/main.103f071a.js.map",
+    "488.1695e89c.chunk.js.map": "/jason_vday_gift.io/static/js/488.1695e89c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36324bbd.css",
+    "static/js/main.103f071a.js"
+  ]
+}
